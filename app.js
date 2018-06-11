@@ -118,7 +118,8 @@ var multArr = [2,3,4];
 function multiplyArray(multArr) { //eslint-disable-line
 var productOfElement0and1 = multiply(multArr[0],multArr[1]);
 var productofproductOfElement0and1 = multiply(productOfElement0and1[0], multArr[2]);
-var theStringYouWant = 'The numbers ' + multArr + ' have a product of ' + productofproductOfElement0and1[0] + '.'
+var theStringYouWant = 'The numbers ' + multArr + ' have a product of ' + productofproductOfElement0and1[0] + '.';
+console.log('what an array looks like', multArr);
 
 return [productofproductOfElement0and1[0], theStringYouWant]
 
